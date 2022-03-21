@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class shootBall : MonoBehaviour
 {
-    public float force = 500.0f;
-    public string buttonName = "buttonX";
+    public float force = 900.0f;  // plunger force
+    public string buttonName = "buttonX"; //assigned input button
 
     private List<Rigidbody> ballList = new List<Rigidbody>();
 
@@ -17,7 +17,7 @@ public class shootBall : MonoBehaviour
         {
             foreach(Rigidbody ball in ballList)
             {
-                ball.AddForce(Vector3.left * force);
+                ball.AddForce(Vector3.left * force);  // apply the plunger force to the rigid body if the x button is pressed
             }
         }
   }

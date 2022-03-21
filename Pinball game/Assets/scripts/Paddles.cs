@@ -6,7 +6,7 @@ public class Paddles : MonoBehaviour
 {
     public float restPos = 0f;
     public float pressPos = 90f;
-    public float hitStrength = 5000f;
+    public float hitStrength = 3000f;
     public float damp = 75f;
     HingeJoint hinge;
     public string input;

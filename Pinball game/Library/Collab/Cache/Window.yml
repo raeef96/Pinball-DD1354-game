@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/SampleScene.unity
+    - Assets/scripts/Bumpers.cs
     - 
     m_Values: 0000
   RevisionSummary: 
